@@ -1,6 +1,6 @@
 <?php
 
-namespace embed;
+namespace em\embed;
 
 use Yii;
 use yii\bootstrap\Widget;
