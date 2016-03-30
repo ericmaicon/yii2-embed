@@ -25,17 +25,9 @@ to the `require` section of your `composer.json` file.
 
 ## Usage
 
-Using with the Grid:
+Using with youtube:
 
-```
-<?= \Da\export\GridView::widget([
-    'dataProvider' => $dataProvider,
-]); ?>
-```
-
-To use Kartik's grid you will need to override renderExport method:
-
-```
+```php
 <?= Embed::widget(['url' => 'https://www.youtube.com/watch?v=3k9cK_n1mlg']); ?>
 ```
 
